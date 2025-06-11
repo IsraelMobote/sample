@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    text-align: center;
+    background-color: rgba(180, 209, 221, 0.541);
+    border: 2px solid rgb(9, 27, 82);
+    border-radius: 20px;
+}
+
+section img {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+}

@@ -1,0 +1,39 @@
+body {
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+div {
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 12px;
+    color: white;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box {
+    animation: myanima 4s ease-out infinite;
+}
+
+@keyframes myanima {
+    0% {
+        opacity: 1;
+        transform: rotate(-180deg);
+    }
+
+    50% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+ 
+
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
