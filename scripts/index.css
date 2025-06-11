@@ -19,6 +19,7 @@ div {
     animation: myanima 4s ease-out infinite;
 }
 
+
 @keyframes myanima {
     0% {
         opacity: 1;
